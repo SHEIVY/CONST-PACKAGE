@@ -1,9 +1,9 @@
 {
-  "name": "sdot-tiltan-distance",
+  "name": "sdot-tiltan-package",
   "version": "1.0.0",
   "description": "",
   "main": "index.ts",
-  "types": "dist/index.d.ts",
+  "types": "dist/index.ts",
   "scripts": {
     "build": "npx tsc"
   },
