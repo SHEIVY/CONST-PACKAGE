@@ -1,0 +1,25 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.RankEnum = void 0;
+var RankEnum;
+(function (RankEnum) {
+    RankEnum["turai"] = "\u05D8\u05D5\u05E8\u05D0\u05D9";
+    RankEnum["rabat"] = "\u05E8\u05D1\"\u05D8";
+    RankEnum["samal"] = "\u05E1\u05DE\u05DC";
+    RankEnum["samar"] = "\u05E1\u05DE\"\u05E8";
+    RankEnum["rasal"] = "\u05E8\u05E1\"\u05DC";
+    RankEnum["rasar"] = "\u05E8\u05E1\"\u05E8";
+    RankEnum["rasam"] = "\u05E8\u05E1\"\u05DD";
+    RankEnum["rasab"] = "\u05E8\u05E1\"\u05D1";
+    RankEnum["ranam"] = "\u05E8\u05E0\"\u05DD";
+    RankEnum["ranag"] = "\u05E8\u05E0\"\u05D2";
+    RankEnum["sagam"] = "\u05E1\u05D2\"\u05DD";
+    RankEnum["segen"] = "\u05E1\u05D2\u05DF";
+    RankEnum["seren"] = "\u05E1\u05E8\u05DF";
+    RankEnum["rasan"] = "\u05E8\u05E1\"\u05DF";
+    RankEnum["saal"] = "\u05E1\u05D0\"\u05DC";
+    RankEnum["alam"] = "\u05E1\u05D0\"\u05DC";
+    RankEnum["taal"] = "\u05EA\u05D0\"\u05DC";
+    RankEnum["aluf"] = "\u05D0\u05DC\u05D5\u05E3";
+    RankEnum["raal"] = "\u05E8\u05D0\"\u05DC";
+})(RankEnum || (exports.RankEnum = RankEnum = {}));
