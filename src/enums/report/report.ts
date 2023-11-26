@@ -1,36 +1,31 @@
-export enum statusReport {
-  waitingApproval = "מחכה לאישור",
+export enum StatusReport {
+  waitingForApprove = "מחכה לאישור",
   approved = "מאושר",
   notApproved = "סורב",
   draft = "טיוטה",
 }
 
-export enum unit {
-  north = "צפון",
-  central = "מרכז",
-  South = "דרום",
-}
-
-export enum eventsType {
+export enum EventsType {
   uncontrolledEntranceToSadam = `כניסה לא מבוקרת לשד"ם`,
-  extractionFromSadam = `חילוץ משד"ם`,
+  rescueFromSadam = `חילוץ משד"ם`,
   driftingMinesInSadam = `היסחפות מוקשים בשד"ם`,
   copyingMinesByAnimals = `העתקת מוקשים ע"י בע"ח`,
-  sheSteppedOnAMin = `עליה על מוקש`,
+  steppedOnAMine = `עליה על מוקש`,
   explosionInSadam = `פיצוץ בשד"ם`,
   theftOfMinesFromSadam = `גניבת מוקשים משד"ם`,
   throwingMines = "זריקת מוקשים",
-  toViolateInTheSadamN = `הפרה בשד"ם נ"א`,
+  violationInSadamNA = `הפרה בשד"ם נ"א`,
   mineDetection = "גילוי מוקשים",
   administrative = "מנהלי",
   other = "אחר",
 }
-export enum gibovType {
+
+export enum GibovType {
   crissCross = "שתי וערב",
   rows = "שורות",
 }
 
-export enum reportsType {
+export enum ReportsType {
   review = "ביקורת",
   lift = "הרמה",
   gibov = "גיבוב",
@@ -38,14 +33,7 @@ export enum reportsType {
   event = "אירוע",
 }
 
-export enum divisions {
-  makhnar = "מקהנ”ר",
-  northernDivision = "אוגדה צפונית",
-  centralDivision = "אוגדה מרכז",
-  southernDivision = "אוגדה דרומית",
-}
-
-export enum RiskEnum {
+export enum  Risks{
   minesWeeper = "סחף מוקשים",
   copyByAnimals = 'העתקה ע"י בע"ח',
   theftOfSigns = "גניבת גדירות ושלטים",
@@ -56,85 +44,38 @@ export enum RiskEnum {
   mined = "ממולכד",
 }
 
-
-export enum sadamsTypes {
-  NA = `נ"א`,
-  NT = `נ"ט`,
-  involved = "מעורב",
-  suspect = "חשוד",
-  dummy = "דמה",
-  lighting = "תאורה",
-  unknown = "לא ידוע",
-  declared = "מוכרז",
-  foreign = "זר",
-}
-
-export enum pikudim {
-  PZN = `פצ"ן`,
-  PKMZ = `פקמ"ז`,
-  PDM = `פד"ם`,
-}
-
-//   export enum UGDOT {
-//     210="210",
-//     91= "91",
-//     877= "877",
-//     162= "162",
-//     80="80",
-//     643="643",
-//   };
-
-export enum signageStatus {
+export enum SignStatus {
   signage = "משולט",
   noSignage = "אינו משולט",
   partialSignage = "שילוט חלקי",
   incorrect = "לא תקין",
 }
 
-export enum fencingStatus {
+export enum FencingStatus {
   fenced = "מגודר",
   noFenced = "אינו מגודר",
   partialFencing = "גידור חלקי",
   incorrect = "לא תקין",
 }
 
-export enum liftTypes {
+export enum LiftTypes {
   partialLifting = "הרמה חלקית",
   fullLift = "הרמה מלאה",
 }
 
-export enum liftingMethod {
+export enum LiftingMethod {
   manual = "ידני",
   mechanical = "מכני",
   integrated = "משולב",
 }
 
-export enum evacutionOperation {
+export enum EvacutionOperation {
   IDF = `צה"ל`,
   RLPT = `רלפ"ט`,
   unknown = "לא ידוע",
 }
 
-export enum priority {
+export enum Priority {
   a = "א",
   b = "ב",
-}
-
-export enum hativot {
-  hativa_474 = 474,
-  hativa_810 = 810,
-  hativa_300 = 300,
-  hativa_769 = 769,
-  hativa_417 = 417,
-  hativa_406 = 406,
-  hativa_270 = 270,
-  hativa_412 = 412,
-  benjamin = "בנימין",
-  menashe = "מנשה",
-  ephraim = "אפריים",
-  etzion = "עציון",
-  yehuda = "יהודה",
-  southern = "דרומית",
-  northern = "צפונית",
-  samaria = "שומרון",
 }

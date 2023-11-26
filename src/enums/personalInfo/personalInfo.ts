@@ -1,4 +1,4 @@
-export enum RankEnum {
+export enum Rank {
     turai = 'טוראי',
     rabat = 'רב"ט',
     samal= 'סמל',
