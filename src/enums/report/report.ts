@@ -45,16 +45,17 @@ export enum divisions {
   southernDivision = "אוגדה דרומית",
 }
 
-//   export enum RISKS = {
-//     minesWeeper: { name: "סחף מוקשים", id: 1 },
-//     copyByAnimals: { name: `העתקה ע"י בע"ח`, id: 2 },
-//     theftOfSigns: { name: "גניבת גדירות ושלטים ", id: 3 },
-//     theftOfMines: { name: "גניבת מוקשים", id: 4 },
-//     wasViolated: { name: "הופר", id: 5 },
-//     scatteredMine: { name: "מיקוש פזיר ", id: 6 },
-//     overThreeTypesOfMines: { name: "מעל שלוש סוגי מוקשים ", id: 7 },
-//     mined: { name: "ממולכד", id: 8 },
-//   };
+export enum RiskEnum {
+  minesWeeper = "סחף מוקשים",
+  copyByAnimals = 'העתקה ע"י בע"ח',
+  theftOfSigns = "גניבת גדירות ושלטים",
+  theftOfMines = "גניבת מוקשים",
+  wasViolated = "הופר",
+  scatteredMine = "מיקוש פזיר ",
+  overThreeTypesOfMines = "מעל שלוש סוגי מוקשים ",
+  mined = "ממולכד",
+}
+
 
 export enum sadamsTypes {
   NA = `נ"א`,
