@@ -33,7 +33,7 @@ export enum ReportsType {
   event = "אירוע",
 }
 
-export enum  Risks{
+export enum Risks{
   minesWeeper = "סחף מוקשים",
   copyByAnimals = 'העתקה ע"י בע"ח',
   theftOfSigns = "גניבת גדירות ושלטים",
