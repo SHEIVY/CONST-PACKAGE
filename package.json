@@ -1,5 +1,5 @@
 {
-  "name": "sdot-tiltan-package",
+  "name": "sdot-tiltan-constants",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.d.ts",
@@ -16,6 +16,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ https://github.com/SHEIVY/CONST-PACKAGE.git"
+    "url": "git+ https://github.com/sdotTiltan_constants"
   }
 }
