@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.hativot = exports.priority = exports.evacutionOperation = exports.liftingMethod = exports.liftTypes = exports.fencingStatus = exports.signageStatus = exports.pikudim = exports.sadamsTypes = exports.divisions = exports.reportsType = exports.gibovType = exports.eventsType = exports.unit = exports.statusReport = void 0;
+exports.hativot = exports.priority = exports.evacutionOperation = exports.liftingMethod = exports.liftTypes = exports.fencingStatus = exports.signageStatus = exports.pikudim = exports.sadamsTypes = exports.RiskEnum = exports.divisions = exports.reportsType = exports.gibovType = exports.eventsType = exports.unit = exports.statusReport = void 0;
 var statusReport;
 (function (statusReport) {
     statusReport["waitingApproval"] = "\u05DE\u05D7\u05DB\u05D4 \u05DC\u05D0\u05D9\u05E9\u05D5\u05E8";
@@ -49,16 +49,17 @@ var divisions;
     divisions["centralDivision"] = "\u05D0\u05D5\u05D2\u05D3\u05D4 \u05DE\u05E8\u05DB\u05D6";
     divisions["southernDivision"] = "\u05D0\u05D5\u05D2\u05D3\u05D4 \u05D3\u05E8\u05D5\u05DE\u05D9\u05EA";
 })(divisions || (exports.divisions = divisions = {}));
-//   export enum RISKS = {
-//     minesWeeper: { name: "סחף מוקשים", id: 1 },
-//     copyByAnimals: { name: `העתקה ע"י בע"ח`, id: 2 },
-//     theftOfSigns: { name: "גניבת גדירות ושלטים ", id: 3 },
-//     theftOfMines: { name: "גניבת מוקשים", id: 4 },
-//     wasViolated: { name: "הופר", id: 5 },
-//     scatteredMine: { name: "מיקוש פזיר ", id: 6 },
-//     overThreeTypesOfMines: { name: "מעל שלוש סוגי מוקשים ", id: 7 },
-//     mined: { name: "ממולכד", id: 8 },
-//   };
+var RiskEnum;
+(function (RiskEnum) {
+    RiskEnum["minesWeeper"] = "\u05E1\u05D7\u05E3 \u05DE\u05D5\u05E7\u05E9\u05D9\u05DD";
+    RiskEnum["copyByAnimals"] = "\u05D4\u05E2\u05EA\u05E7\u05D4 \u05E2\"\u05D9 \u05D1\u05E2\"\u05D7";
+    RiskEnum["theftOfSigns"] = "\u05D2\u05E0\u05D9\u05D1\u05EA \u05D2\u05D3\u05D9\u05E8\u05D5\u05EA \u05D5\u05E9\u05DC\u05D8\u05D9\u05DD";
+    RiskEnum["theftOfMines"] = "\u05D2\u05E0\u05D9\u05D1\u05EA \u05DE\u05D5\u05E7\u05E9\u05D9\u05DD";
+    RiskEnum["wasViolated"] = "\u05D4\u05D5\u05E4\u05E8";
+    RiskEnum["scatteredMine"] = "\u05DE\u05D9\u05E7\u05D5\u05E9 \u05E4\u05D6\u05D9\u05E8 ";
+    RiskEnum["overThreeTypesOfMines"] = "\u05DE\u05E2\u05DC \u05E9\u05DC\u05D5\u05E9 \u05E1\u05D5\u05D2\u05D9 \u05DE\u05D5\u05E7\u05E9\u05D9\u05DD ";
+    RiskEnum["mined"] = "\u05DE\u05DE\u05D5\u05DC\u05DB\u05D3";
+})(RiskEnum || (exports.RiskEnum = RiskEnum = {}));
 var sadamsTypes;
 (function (sadamsTypes) {
     sadamsTypes["NA"] = "\u05E0\"\u05D0";
