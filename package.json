@@ -1,5 +1,5 @@
 {
-  "name": "sdot-tiltan-package",
+  "name": "@sdottiltan/constants",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.d.ts",
