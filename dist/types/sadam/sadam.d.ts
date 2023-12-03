@@ -1,5 +1,4 @@
 export interface Sadam {
-    layer: any;
     id: number;
     type: number;
     slotX: number;

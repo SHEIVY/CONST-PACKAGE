@@ -1,0 +1,25 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.Rank = void 0;
+var Rank;
+(function (Rank) {
+    Rank["turai"] = "\u05D8\u05D5\u05E8\u05D0\u05D9";
+    Rank["rabat"] = "\u05E8\u05D1\"\u05D8";
+    Rank["samal"] = "\u05E1\u05DE\u05DC";
+    Rank["samar"] = "\u05E1\u05DE\"\u05E8";
+    Rank["rasal"] = "\u05E8\u05E1\"\u05DC";
+    Rank["rasar"] = "\u05E8\u05E1\"\u05E8";
+    Rank["rasam"] = "\u05E8\u05E1\"\u05DD";
+    Rank["rasab"] = "\u05E8\u05E1\"\u05D1";
+    Rank["ranam"] = "\u05E8\u05E0\"\u05DD";
+    Rank["ranag"] = "\u05E8\u05E0\"\u05D2";
+    Rank["sagam"] = "\u05E1\u05D2\"\u05DD";
+    Rank["segen"] = "\u05E1\u05D2\u05DF";
+    Rank["seren"] = "\u05E1\u05E8\u05DF";
+    Rank["rasan"] = "\u05E8\u05E1\"\u05DF";
+    Rank["saal"] = "\u05E1\u05D0\"\u05DC";
+    Rank["alam"] = "\u05E1\u05D0\"\u05DC";
+    Rank["taal"] = "\u05EA\u05D0\"\u05DC";
+    Rank["aluf"] = "\u05D0\u05DC\u05D5\u05E3";
+    Rank["raal"] = "\u05E8\u05D0\"\u05DC";
+})(Rank || (exports.Rank = Rank = {}));

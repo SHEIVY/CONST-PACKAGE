@@ -1,4 +1,4 @@
-import { PersonalInfo } from "../personalInfo/personalInfoType";
+import { PersonalInfo } from "../personalInfo/personalInfo";
 export interface Report {
     id: number;
     creationDate: Date;

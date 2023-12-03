@@ -1,4 +1,4 @@
-export declare enum RankEnum {
+export declare enum Rank {
     turai = "\u05D8\u05D5\u05E8\u05D0\u05D9",
     rabat = "\u05E8\u05D1\"\u05D8",
     samal = "\u05E1\u05DE\u05DC",
